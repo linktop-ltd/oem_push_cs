@@ -1,2 +1,11 @@
 # oem_push_cs
-it's client for linktop. ltd's push service using c#
+该项目针对厦门凌拓服务器间推送协议的c#版本
+
+代码仅包含以下几个部分：
+* 标准的rc4算法实现
+* 基础指令编、解码
+* 基础时序
+
+不包含：
+* redis协议报文解析（相关实现为空函数）
+* 与具体项目的接口层
